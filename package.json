@@ -1,0 +1,13 @@
+{
+  "name": "css-side-effect",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:dev": "parcel ./src/index.html",
+    "build:prod": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "@atlaskit/tokens": "^0.7.1",
+    "parcel": "^2.3.2"
+  }
+}
